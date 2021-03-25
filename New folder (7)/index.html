@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+</head>
+
+<body>
+
+    <div class="styled-table">
+        <table border=3  class="center">
+            <thead>
+                <tr>
+                    <th>Simulateur pour le calcule de salaire net</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nombre de points</td>
+                    <td><input id="ggg" placeholder="écrire nombre de points"></td>
+                    <td></td>
+    
+                </tr>
+                <tr>
+                    <td>Salaire brut</td>
+                    <td id="brut"></td>
+                    <td></td>
+    
+                </tr>
+                <tr>
+                    <td>Prime de residence 13%</td>
+                    <td id="prime"></td>
+                    <td></td>
+    
+                </tr>
+                <tr>
+                    <td>Returne de retraite de 6.00%</td>
+                    <td id="retraite"></td>
+                    <td></td>
+    
+                </tr>
+                <tr class="active-row">
+                    <td>Returne metuelle de 2.5%</td>
+                    <td id="mutuelle"></td>
+                    <td></td>
+    
+                </tr>
+                <tr>
+                    <td>Returne Impot sur le revenu(IR)</td>
+                    <td id="iR"></td>
+                    <td></td>
+    
+                </tr>
+                <tr>
+                    <td>Salair NET</td>
+                    <td id="net"></td>
+                    <td></td>
+    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    <div class="container">
+        <div class="google">
+            <button onclick="calcSalaire()">calculer</button>
+        </div>
+      </div>
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>
